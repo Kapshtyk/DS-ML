@@ -1,17 +1,17 @@
-# Восстановление золота из руды
+# Recovery of gold from ore
 
-## Данные
-В нашем распоряжении данные с параметрами добычи и очистки, разбитые на обучающую и тестовую выборки. Также предоставлен исходный набор данных. Некоторые параметры для обучения моделей нам недоступны, потому что рассчитываются на более поздних этапах производственного процесса. Из-за этого в тестовой выборке отсутствуют некоторые признаки, которые могут быть в обучающей. Также в тестовом наборе нет целевых признаков.
+## Data
+We have at our disposal data with mining and refining parameters, split into training and test samples. An initial data set is also provided. Some parameters are not available for model training because they are calculated at later stages of the production process. Because of this, the test sample is missing some attributes that may be in the training sample. Also, there are no target attributes in the test set.
 
-## Цель и дополнительные задачи
-Основной целью в рамках данного проекта является построение моделей, предсказывающих коэффициент восстановления золота из золотосодержащей руды на различных этапах производственного процесса: для чернового концентрата и для финального концентрата. 
+## Purpose and Additional Objectives
+The main objective within this project is to build models that predict the recovery rate of gold from gold-bearing ore at different stages of the production process: for the rough concentrate and for the final concentrate. 
 
-В процессе работы нужно было решить ряд дополнительных задач:
-- проверить корректность расчета эффективности восстановления руды (наш целевой признак) - необходимо было сделать самостоятельный расчет по приведенной формуле, а также вычислить метрику MAE между данными из датасета, а также результатами нашего расчета;
--  изучить изменение концентрации металлов на разных этапах очистки, исследовать суммарную концентрацию веществ на разных этапах производственного процесса, а также сравнить распределение некоторых из признаков в обучающей и тестовой выборках;
-- определить функцию, которая будет использоваться в качестве метрики для оценки качества моделей.
+In the course of the work it was necessary to solve a number of additional tasks:
+- to check the correctness of the calculation of ore recovery efficiency (our target attribute) - it was necessary to make an independent calculation using the given formula, as well as to calculate the MAE metric between the data from the dataset as well as the results of our calculation;
+- to study the variation of metal concentration at different stages of purification, to study the total concentration of substances at different stages of the production process, and to compare the distribution of some of the features in the training and test samples;
+- define a function to be used as a metric for assessing the quality of the models.
 
-## Библиотеки
+## Libraries
 - pandas
 - numpy
 - matplotlib, seaborn
