@@ -1,6 +1,6 @@
-## Примеры проектов, выполненных за время обучения по профессии «Специалист по Data Science»
+## Examples of projects completed during the Data Science Specialist training programme
 
-| Название проекта      | Краткое описание проекта| Использованные библиотеки| Ключевые слова|
+| Project name      | Brief description of the project| Libraries used| Keywords|
 | :-------------------- | :---------------------|:---------------------------| :---------------------------|
-| [Восстановление золота из руды](https://github.com/Kapshtak/experience/tree/main/gold) | Основной целью в рамках данного проекта является построение моделей, предсказывающих коэффициент восстановления золота из золотосодержащей руды на различных этапах производственного процесса: для чернового концентрата и для финального концентрата.   | pandas, matplotlib, seaborn, sklearn | анализ данных, регрессия, кастомные метрики
-| [Определение температуры стали](https://github.com/Kapshtak/experience/tree/main/steel) | Основной целью в рамках данного проекта является построение модели, предсказывающей температуру стали. | pandas, matplotlib, seaborn, sklearn | анализ данных, регрессия, анализ значимости признаков, отчет для "бизнеса"
+| [Recovery of gold from ore](https://github.com/Kapshtak/experience/tree/main/gold) | The main objective of this project is to build models that predict the recovery rate of gold from gold-bearing ore at different stages of the production process: for the rough concentrate and for the final concentrate. | pandas, matplotlib, seaborn, sklearn | data analysis, regression, custom metrics
+| [Steel temperature prediction](https://github.com/Kapshtak/experience/tree/main/steel) | The main goal within this project is to build a model that predicts the temperature of steel. | pandas, matplotlib, seaborn, sklearn | data analysis, regression, significance analysis, report for "business"
