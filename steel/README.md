@@ -1,18 +1,18 @@
-# Определение температуры стали
+# Steel temperature prediction
 
-Чтобы оптимизировать производственные расходы, металлургическому комбинату необходимо уменьшить потребление электроэнергии на этапе обработки стали, для этого необходимо построить модель, которая будет предсказывать температуру стали.
+In order to optimise production costs, a steel mill needs to reduce energy consumption during the steel processing stage, and to do this it is necessary to build a model that predicts the temperature of the steel.
 
-В нашем распоряжении находилось несколько наборов данных:
+We had several datasets at our disposal:
 
-- `data_arc.csv` — данные об электродах;
-- `data_bulk.csv` — данные о подаче сыпучих материалов (объём);
-- `data_gas.csv` — данные о продувке сплава газом;
-- `data_temp.csv` — результаты измерения температуры;
-- `data_wire.csv` — данные о проволочных материалах (объём).
+- `data_arc.csv` - electrode data;
+- `data_bulk.csv` - bulk feed data (volume);
+- `data_gas.csv` - data on gas purging of the alloy;
+- `data_temp.csv` - temperature measurement results;
+- `data_wire.csv` - data on wire materials (volume).
 
-В рамках решения поставленной задачи, помимо работы с данными и обучения модели, необходимо было подготовить отчет для бизнеса, текст которого приведен в конце ноутбука.
+As part of the solution of the task, in addition to working with the data and training the model, it was necessary to prepare a report for the business, the text of which is given at the end of the notebook.
 
-## Библиотеки
+## Libraries
 - pandas
 - numpy
 - matplotlib, seaborn
